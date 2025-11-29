@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iframe元素</title>
+</head>
+<body>
+    <!--这里有一个嵌入 YouTube 上热门 freeCodeCamp 课程的示例。
+    要查看不同的视频，启用交互式编辑器，并将 src 值改成你选择的视频-->
+    <iframe
+        width="1000"
+        height="1000"
+        src="https://www.bilibili.com/video/BV1qaCTBdETG/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=444deb6a4089cb5655caf57d39388587"
+        title="Learn JavaScript - Full Course for Beginners (YouTube video)"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+    <!--The src attribute specifies the URL of the page you want to embed.
+     The width attribute specifies the width of the iframe.
+     The height attribute specifies the height of the iframe.
+     The allowfullscreen attribute allows the user to display the iframe in full screen mode.
+     It's also a good practice to specify a title attribute for the iframe, as it's important for accessibility.
+    src 属性指定你想嵌入页面的 URL。
+    宽度属性指定了 iframe 的宽度。
+    高度属性指定了 iframe 的高度。
+     允许全屏属性允许用户以全屏模式显示 iframe。
+     为 iframe 指定标题属性也是个好习惯，因为这对无障碍很重要。-->
+
+
+
+
+
+    <!--你还可以在 iframe 元素中嵌入地图、另一个网页或直接 HTML。
+    试着通过放大缩小与地图互动。
+    如果你想在 iframe 元素中嵌入直接的 HTML，你必须使用 srcdoc 属性而不是 src。-->
+    <h1>A Map from earthol.org Embedded with the iframe Element</h1>
+
+    <iframe
+      width="625"
+      height="450"
+      src="https://www.earthol.org"
+      title="Map of Lagos area, Nigeria"
+      style="border: 1px solid black"
+    >
+    </iframe>
+    <br />
+    <small>
+      <a href="https://www.earthol.org">
+        View Larger Map
+      </a>
+    </small>
+
+</body>
+</html>

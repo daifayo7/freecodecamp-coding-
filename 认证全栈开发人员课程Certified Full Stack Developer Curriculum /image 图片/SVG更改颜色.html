@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG更改颜色</title>
+</head>
+<body>
+    <!--像素图 🆚 矢量图 -->
+
+
+    <!-- 要将笑脸更改为红色，并将 fill=“yellow” 改为 fill=“red”。-->
+
+    <!--The svg element is the container for the whole drawing.
+    It sets up the space where all the shapes appear.
+    Everything you want to draw with SVG, such as circles, lines, or paths, goes inside the svg element.
+    SVG 元素是整个图纸的容器。它为所有形状创造了空间。
+    你想用 SVG 绘制的所有内容，比如圆圈、线条或路径，都放在 SVG 元素里。-->
+
+    <!--The viewBox attribute controls what part of the image is visible inside the SVG.
+        viewBox 属性控制图像的哪一部分在 SVG 中可见。 -->
+    <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <!-- The circle element is used to make the face and the eyes.
+            One large circle forms the yellow face, and two smaller circles make the eyes.
+            圆形元素用于制作面部和眼睛。一个大圆圈构成黄色脸部，两个较小的圆圈构成眼睛。-->
+      <circle cx="50" cy="50" r="45" stroke="black" stroke-width="4" fill="yellow" />
+      <circle cx="35" cy="40" r="5" fill="black" />
+      <circle cx="65" cy="40" r="5" fill="white" />
+      <!--The path element is used to draw the smile. It creates a curved line for the mouth.
+          路径元素用于绘制微笑。它会为嘴部形成一条弯曲的线条。-->
+      <path d="M35 65 Q50 80 65 65" stroke="black" stroke-width="4" fill="transparent" />
+    </svg>
+
+
+
+    <!-- Star Icon 五角星⭐️-->
+    <svg width="50" height="50" viewBox="0 0 24 24" fill="gold" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L14.9 8.6L22 9.3L17 14.1L18.3 21.2L12 17.8L5.7 21.2L7 14.1L2 9.3L9.1 8.6L12 2Z" />
+    </svg>
+
+    <!-- Heart Icon 爱心❤️-->
+    <svg width="50" height="50" viewBox="0 0 24 24" fill="red" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 6 4 4 6.5 4C8 4 9.5 4.8 10.5 6.09C11.5 4.8 13 4 14.5 4C17 4 19 6 19 8.5C19 12.28 15.6 15.36 10.45 20.04L12 21.35Z" />
+    </svg>
+
+    <!-- Checkmark Icon✅ -->
+    <svg width="50" height="50" viewBox="0 0 24 24" fill="red" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.29 5.71L9 17L3.71 11.71L5.12 10.29L9 14.17L18.88 4.29L20.29 5.71Z"/>
+    </svg>
+
+
+    <!--画一个小❤️-->
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="red">
+      <path
+      d="M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z"
+      ></path>
+    </svg>
+</body>
+</html>
