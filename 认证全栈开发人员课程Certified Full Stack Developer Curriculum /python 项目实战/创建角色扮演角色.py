@@ -121,4 +121,4 @@ def create_character(name,strength,intelligence,charisma):
 
 if __name__ == '__main__':
 
-    print(create_character("simonwolf",3,1,3))
+    print(create_character("simonwolf",5,1,3))
